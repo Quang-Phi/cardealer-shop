@@ -1,0 +1,86 @@
+@media screen and (max-width: 1400px) {
+  #products-page{
+    .question-list__content.active {
+      height: 15rem !important;
+    }
+    .car-info__btn {
+      position: relative !important;
+      margin-top: 2rem; 
+      text: {
+        align: center;
+        transform: uppercase;
+      }
+      font-size: 1.4rem;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #products-page{
+    .car-info__btn {
+      position: relative;
+      margin-top: 2rem;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 1.4rem;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #products-page{
+    .main-content {
+      margin-left: 0 !important;
+      .car-box__image {
+        width: 100% !important;
+      }
+      .car-info {
+        padding-left: 0 !important;
+        .product-favourite {
+          transform: unset;
+         top: 2rem;
+          margin-top: 1.6rem;
+        }
+        .car-info__title-link {
+          margin-top: 1.6rem;
+        }
+      }
+    }
+    .question-list__content.active {
+      height: 22rem !important;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #products-page{
+    .car-question {
+      display: none;
+      .question-list__content.active {
+        height: 12rem !important;
+      }
+    }
+    .sup-car-question {
+      display: block !important;
+    }
+    
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #products-page{
+    .question-list__content.active {
+      height: 13rem !important;
+    }
+    .item-wide-first {
+      .link-wide-first {
+        font-size: 1rem;
+      }
+    }
+    .item-wide-last {
+      .link-wide-last {
+        font-size: 1rem;
+      }
+    }
+  }
+}

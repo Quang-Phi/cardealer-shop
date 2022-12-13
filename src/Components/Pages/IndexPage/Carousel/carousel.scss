@@ -1,0 +1,35 @@
+.slick-slider {
+  .slick-slide {
+    padding: 0 0.8rem;
+  }
+  .slick-arrow {
+    width: 5.5rem !important;
+    height: 5.5rem !important;
+    top: unset !important;
+    bottom: -11rem;
+    transform: unset !important;
+    &.slick-prev {
+      left: unset !important;
+      &::before {
+        width: 100% !important;
+        height: 100%;
+        background-color: transparent;
+        color: var(--black);
+        transform: unset !important;
+        font-size: 5.5rem;
+      }
+      &:hover:before {
+        transform: unset;
+      }
+    }
+    &.slick-next {
+      left: 6rem;
+      &::before {
+        @extend .slick-prev;
+      }
+      &:hover:before {
+        transform: unset;
+      }
+    }
+  }
+}
